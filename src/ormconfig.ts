@@ -13,7 +13,7 @@ const config: ConnectionOptions = {
 
     migrationsRun: false,
     logging: true,
-    logger: 'file',
+    logger: 'simple-console',
 
     migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
     cli: {

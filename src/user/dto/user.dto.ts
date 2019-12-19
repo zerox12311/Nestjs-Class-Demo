@@ -1,4 +1,4 @@
-export interface UserCreateDto {
+export class UserCreateDto {
 
     name: string;
 
@@ -7,7 +7,8 @@ export interface UserCreateDto {
     password: string;
 }
 
-export interface UserUpdateDto {
+// tslint:disable-next-line: max-classes-per-file
+export class UserUpdateDto {
 
     name: string;
 
